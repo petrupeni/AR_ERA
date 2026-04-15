@@ -1,0 +1,72 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+-- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)
+-- Found cf_control_msgs: 0.0.1 (/home/developer/ros2_ws/src/install/cf_control_msgs/share/cf_control_msgs/cmake)
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'cppcheck' to perform static code analysis on C / C++ code
+-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/ros2_ws/src/cf_control/include>
+-- Configured cppcheck exclude dirs and/or files: 
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'uncrustify' to check C / C++ code style
+-- Configured uncrustify additional arguments: 
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done (1.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/developer/ros2_ws/src/build/cf_control
+[ 25%] [32mBuilding CXX object CMakeFiles/mixer.dir/rclcpp_components/node_main_mixer.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/mixer_lib.dir/src/mixer.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable mixer[0m
+[ 75%] Built target mixer
+[100%] [32m[1mLinking CXX shared library libmixer_lib.so[0m
+[100%] Built target mixer_lib
+-- Install configuration: ""
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/lib/cf_control/mixer
+-- Set runtime path of "/home/developer/ros2_ws/src/install/cf_control/lib/cf_control/mixer" to ""
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/lib/libmixer_lib.so
+-- Set runtime path of "/home/developer/ros2_ws/src/install/cf_control/lib/libmixer_lib.so" to ""
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/package_run_dependencies/cf_control
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/parent_prefix_path/cf_control
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/ament_prefix_path.sh
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/ament_prefix_path.dsv
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/path.sh
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/path.dsv
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.bash
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.sh
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.zsh
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.dsv
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/package.dsv
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/packages/cf_control
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/rclcpp_components/cf_control
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/export_cf_controlExport.cmake
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/export_cf_controlExport-noconfig.cmake
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/ament_cmake_export_targets-extras.cmake
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/cf_controlConfig.cmake
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/cf_controlConfig-version.cmake
+-- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/package.xml

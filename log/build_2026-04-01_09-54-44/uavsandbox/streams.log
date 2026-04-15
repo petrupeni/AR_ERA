@@ -1,0 +1,32 @@
+[0.788s] Invoking command in '/home/developer/ros2_ws/src/uavsandbox': PYTHONPATH=/home/developer/ros2_ws/src/build/uavsandbox/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uavsandbox build --build-base /home/developer/ros2_ws/src/build/uavsandbox/build install --record /home/developer/ros2_ws/src/build/uavsandbox/install.log --single-version-externally-managed install_data
+[1.048s] running egg_info
+[1.066s] creating ../build/uavsandbox/uavsandbox.egg-info
+[1.066s] writing ../build/uavsandbox/uavsandbox.egg-info/PKG-INFO
+[1.066s] writing dependency_links to ../build/uavsandbox/uavsandbox.egg-info/dependency_links.txt
+[1.067s] writing requirements to ../build/uavsandbox/uavsandbox.egg-info/requires.txt
+[1.067s] writing top-level names to ../build/uavsandbox/uavsandbox.egg-info/top_level.txt
+[1.067s] writing manifest file '../build/uavsandbox/uavsandbox.egg-info/SOURCES.txt'
+[1.106s] reading manifest file '../build/uavsandbox/uavsandbox.egg-info/SOURCES.txt'
+[1.106s] adding license file 'LICENSE'
+[1.107s] writing manifest file '../build/uavsandbox/uavsandbox.egg-info/SOURCES.txt'
+[1.107s] running build
+[1.107s] running build_py
+[1.107s] creating /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+[1.107s] copying uavsandbox/sandbox.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+[1.108s] copying uavsandbox/__init__.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+[1.108s] running install
+[1.111s] running install_lib
+[1.131s] creating /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+[1.131s] copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/sandbox.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+[1.131s] copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/__init__.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+[1.131s] byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/sandbox.py to sandbox.cpython-310.pyc
+[1.131s] byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/__init__.py to __init__.cpython-310.pyc
+[1.132s] running install_data
+[1.132s] creating /home/developer/ros2_ws/src/install/uavsandbox/share/ament_index/resource_index/packages
+[1.132s] copying resource/uavsandbox -> /home/developer/ros2_ws/src/install/uavsandbox/share/ament_index/resource_index/packages
+[1.132s] copying package.xml -> /home/developer/ros2_ws/src/install/uavsandbox/share/uavsandbox
+[1.132s] running install_egg_info
+[1.152s] Copying ../build/uavsandbox/uavsandbox.egg-info to /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox-0.0.0-py3.10.egg-info
+[1.152s] running install_scripts
+[1.190s] writing list of installed files to '/home/developer/ros2_ws/src/build/uavsandbox/install.log'
+[1.209s] Invoked command in '/home/developer/ros2_ws/src/uavsandbox' returned '0': PYTHONPATH=/home/developer/ros2_ws/src/build/uavsandbox/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uavsandbox build --build-base /home/developer/ros2_ws/src/build/uavsandbox/build install --record /home/developer/ros2_ws/src/build/uavsandbox/install.log --single-version-externally-managed install_data

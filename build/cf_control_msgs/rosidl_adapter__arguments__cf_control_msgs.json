@@ -1,0 +1,6 @@
+{
+  "package_name": "cf_control_msgs",
+  "non_idl_tuples": [
+    "/home/developer/ros2_ws/src/cf_control_msgs:msg/ThrustAndTorque.msg"
+  ]
+}

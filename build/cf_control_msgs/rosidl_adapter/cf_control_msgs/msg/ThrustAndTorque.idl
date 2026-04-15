@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from cf_control_msgs/msg/ThrustAndTorque.msg
+// generated code does not contain a copyright notice
+
+#include "geometry_msgs/msg/Vector3.idl"
+
+module cf_control_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "UAV control with total thrust and torque")
+    struct ThrustAndTorque {
+      uint64 timestamp;
+
+      double collective_thrust;
+
+      geometry_msgs::msg::Vector3 torque;
+    };
+  };
+};

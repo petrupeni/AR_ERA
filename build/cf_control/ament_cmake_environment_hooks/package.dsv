@@ -1,0 +1,4 @@
+source;share/cf_control/local_setup.bash
+source;share/cf_control/local_setup.dsv
+source;share/cf_control/local_setup.sh
+source;share/cf_control/local_setup.zsh

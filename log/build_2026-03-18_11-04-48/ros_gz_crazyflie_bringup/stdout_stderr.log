@@ -1,0 +1,74 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Configuring done (0.7s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/developer/ros2_ws/src/build/ros_gz_crazyflie_bringup
+-- Install configuration: ""
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/launch
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/launch/crazyflie_simulation.launch.py
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/config
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/config/ros_gz_crazyflie_bridge.yaml
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/LICENSE
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/collada_files
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/collada_files/ccw_prop.dae
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/collada_files/cf2_assembly.dae
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/collada_files/cw_prop.dae
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/collada_files/cf2_assembly_with_props.dae
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/2_pinheaders.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/4_motormounts.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/cw_prop.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/battery_holder.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/motor_mount.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/cf2_assembly.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/4_motors.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/cf_body.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/pin_headers.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/battery.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/stl_files/ccw_prop.stl
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files/battery_holder.blend
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files/cf_body.blend
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files/battery.blend
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files/cw_prop.blend
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files/motor_mount.blend
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files/cf2_assembly.blend
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/blender_files/pin_headers.blend
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/textures
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/meshes/textures/fast_helix.png
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/gazebo
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/gazebo/crazyflie
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/gazebo/crazyflie/model.sdf
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/gazebo/crazyflie/model.config
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/gazebo/worlds
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/gazebo_files/gazebo/worlds/crazyflie_world.sdf
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ament_index/resource_index/package_run_dependencies/ros_gz_crazyflie_bringup
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ament_index/resource_index/parent_prefix_path/ros_gz_crazyflie_bringup
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/environment/ament_prefix_path.sh
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/environment/ament_prefix_path.dsv
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/environment/path.sh
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/environment/path.dsv
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/local_setup.bash
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/local_setup.sh
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/local_setup.zsh
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/local_setup.dsv
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/package.dsv
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ament_index/resource_index/packages/ros_gz_crazyflie_bringup
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/cmake/ros_gz_crazyflie_bringupConfig.cmake
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/cmake/ros_gz_crazyflie_bringupConfig-version.cmake
+-- Installing: /home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup/share/ros_gz_crazyflie_bringup/package.xml
