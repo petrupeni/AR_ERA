@@ -1,0 +1,78 @@
+[0.013s] Invoking command in '/home/developer/ros2_ws/src/build/cf_control': AMENT_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/developer/ros2_ws/src/install/cf_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/developer/ros2_ws/src/cf_control -DCMAKE_INSTALL_PREFIX=/home/developer/ros2_ws/src/install/cf_control
+[0.085s] -- The C compiler identification is GNU 11.4.0
+[0.141s] -- The CXX compiler identification is GNU 11.4.0
+[0.162s] -- Detecting C compiler ABI info
+[0.237s] -- Detecting C compiler ABI info - done
+[0.258s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.258s] -- Detecting C compile features
+[0.259s] -- Detecting C compile features - done
+[0.275s] -- Detecting CXX compiler ABI info
+[0.357s] -- Detecting CXX compiler ABI info - done
+[0.378s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.379s] -- Detecting CXX compile features
+[0.380s] -- Detecting CXX compile features - done
+[0.388s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.547s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.656s] -- Found rclcpp: 16.0.18 (/opt/ros/humble/share/rclcpp/cmake)
+[0.719s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.728s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.740s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.757s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.780s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.851s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.856s] -- Found rmw_fastrtps_cpp: 6.2.10 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.977s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.017s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.080s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.096s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.163s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.164s] -- Found Threads: TRUE  
+[1.246s] -- Found rclcpp_components: 16.0.18 (/opt/ros/humble/share/rclcpp_components/cmake)
+[1.295s] -- Found actuator_msgs: 0.0.1 (/opt/ros/humble/share/actuator_msgs/cmake)
+[1.314s] -- Found cf_control_msgs: 0.0.1 (/home/developer/ros2_ws/src/install/cf_control_msgs/share/cf_control_msgs/cmake)
+[1.359s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.458s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.458s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/ros2_ws/src/cf_control/include>
+[1.458s] -- Configured cppcheck exclude dirs and/or files: 
+[1.459s] -- Added test 'lint_cmake' to check CMake code style
+[1.460s] -- Added test 'uncrustify' to check C / C++ code style
+[1.460s] -- Configured uncrustify additional arguments: 
+[1.460s] -- Added test 'xmllint' to check XML markup files
+[1.462s] -- Configuring done (1.4s)
+[1.481s] -- Generating done (0.0s)
+[1.488s] -- Build files have been written to: /home/developer/ros2_ws/src/build/cf_control
+[1.500s] Invoked command in '/home/developer/ros2_ws/src/build/cf_control' returned '0': AMENT_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/developer/ros2_ws/src/install/cf_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake /home/developer/ros2_ws/src/cf_control -DCMAKE_INSTALL_PREFIX=/home/developer/ros2_ws/src/install/cf_control
+[1.501s] Invoking command in '/home/developer/ros2_ws/src/build/cf_control': AMENT_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/developer/ros2_ws/src/install/cf_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/developer/ros2_ws/src/build/cf_control -- -j24 -l24
+[1.557s] [ 25%] [32mBuilding CXX object CMakeFiles/mixer.dir/rclcpp_components/node_main_mixer.cpp.o[0m
+[1.557s] [ 50%] [32mBuilding CXX object CMakeFiles/mixer_lib.dir/src/mixer.cpp.o[0m
+[4.018s] [ 75%] [32m[1mLinking CXX executable mixer[0m
+[4.117s] [ 75%] Built target mixer
+[7.972s] [100%] [32m[1mLinking CXX shared library libmixer_lib.so[0m
+[8.306s] [100%] Built target mixer_lib
+[8.317s] Invoked command in '/home/developer/ros2_ws/src/build/cf_control' returned '0': AMENT_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/developer/ros2_ws/src/install/cf_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --build /home/developer/ros2_ws/src/build/cf_control -- -j24 -l24
+[8.318s] Invoking command in '/home/developer/ros2_ws/src/build/cf_control': AMENT_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/developer/ros2_ws/src/install/cf_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/developer/ros2_ws/src/build/cf_control
+[8.345s] -- Install configuration: ""
+[8.345s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/lib/cf_control/mixer
+[8.346s] -- Set runtime path of "/home/developer/ros2_ws/src/install/cf_control/lib/cf_control/mixer" to ""
+[8.346s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/lib/libmixer_lib.so
+[8.353s] -- Set runtime path of "/home/developer/ros2_ws/src/install/cf_control/lib/libmixer_lib.so" to ""
+[8.353s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/package_run_dependencies/cf_control
+[8.353s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/parent_prefix_path/cf_control
+[8.353s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/ament_prefix_path.sh
+[8.353s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/ament_prefix_path.dsv
+[8.353s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/path.sh
+[8.354s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/path.dsv
+[8.354s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.bash
+[8.354s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.sh
+[8.354s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.zsh
+[8.354s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.dsv
+[8.354s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/package.dsv
+[8.355s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/packages/cf_control
+[8.355s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/rclcpp_components/cf_control
+[8.355s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/export_cf_controlExport.cmake
+[8.355s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/export_cf_controlExport-noconfig.cmake
+[8.355s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/ament_cmake_export_targets-extras.cmake
+[8.356s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/cf_controlConfig.cmake
+[8.356s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/cf_controlConfig-version.cmake
+[8.356s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/package.xml
+[8.361s] Invoked command in '/home/developer/ros2_ws/src/build/cf_control' returned '0': AMENT_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/developer/ros2_ws/src/install/cf_control_msgs/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/local/bin/cmake --install /home/developer/ros2_ws/src/build/cf_control

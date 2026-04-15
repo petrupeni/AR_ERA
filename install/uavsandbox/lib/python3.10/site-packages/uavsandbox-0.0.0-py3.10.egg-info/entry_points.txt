@@ -1,0 +1,2 @@
+[console_scripts]
+sandbox = uavsandbox.sandbox:main

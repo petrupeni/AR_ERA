@@ -1,0 +1,28 @@
+[0.013s] Invoking command in '/home/developer/ros2_ws/src/build/cf_control': CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup:/home/developer/ros2_ws/src/install/cf_control:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:/home/developer/ros2_ws/src/install/cf_control/lib:/home/developer/ros2_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/home/developer/acados/lib /usr/local/bin/cmake --build /home/developer/ros2_ws/src/build/cf_control -- -j24 -l24
+[0.087s] [ 50%] Built target mixer_lib
+[0.087s] [100%] Built target mixer
+[0.096s] Invoked command in '/home/developer/ros2_ws/src/build/cf_control' returned '0': CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup:/home/developer/ros2_ws/src/install/cf_control:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:/home/developer/ros2_ws/src/install/cf_control/lib:/home/developer/ros2_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/home/developer/acados/lib /usr/local/bin/cmake --build /home/developer/ros2_ws/src/build/cf_control -- -j24 -l24
+[0.098s] Invoking command in '/home/developer/ros2_ws/src/build/cf_control': CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup:/home/developer/ros2_ws/src/install/cf_control:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:/home/developer/ros2_ws/src/install/cf_control/lib:/home/developer/ros2_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/home/developer/acados/lib /usr/local/bin/cmake --install /home/developer/ros2_ws/src/build/cf_control
+[0.130s] -- Install configuration: ""
+[0.130s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/lib/cf_control/mixer
+[0.131s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/lib/libmixer_lib.so
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/package_run_dependencies/cf_control
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/parent_prefix_path/cf_control
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/ament_prefix_path.sh
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/ament_prefix_path.dsv
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/path.sh
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/environment/path.dsv
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.bash
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.sh
+[0.132s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.zsh
+[0.133s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/local_setup.dsv
+[0.133s] -- Installing: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/package.dsv
+[0.133s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/packages/cf_control
+[0.133s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/ament_index/resource_index/rclcpp_components/cf_control
+[0.133s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/export_cf_controlExport.cmake
+[0.133s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/export_cf_controlExport-noconfig.cmake
+[0.133s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/ament_cmake_export_targets-extras.cmake
+[0.133s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/cf_controlConfig.cmake
+[0.134s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/cmake/cf_controlConfig-version.cmake
+[0.134s] -- Up-to-date: /home/developer/ros2_ws/src/install/cf_control/share/cf_control/package.xml
+[0.142s] Invoked command in '/home/developer/ros2_ws/src/build/cf_control' returned '0': CMAKE_PREFIX_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs:/home/developer/ros2_ws/src/install/ros_gz_crazyflie_bringup:/home/developer/ros2_ws/src/install/cf_control:/home/developer/ros2_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/developer/ros2_ws/src/install/cf_control_msgs/lib:/home/developer/ros2_ws/src/install/cf_control/lib:/home/developer/ros2_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/usr/local/cuda/lib64:/home/developer/acados/lib /usr/local/bin/cmake --install /home/developer/ros2_ws/src/build/cf_control

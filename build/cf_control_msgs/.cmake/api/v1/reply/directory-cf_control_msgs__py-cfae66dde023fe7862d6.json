@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cf_control_msgs__py",
+		"source" : "/home/developer/ros2_ws/src/build/cf_control_msgs/cf_control_msgs__py"
+	}
+}
