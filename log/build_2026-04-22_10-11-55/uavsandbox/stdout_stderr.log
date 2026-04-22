@@ -1,0 +1,35 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+running egg_info
+writing ../build/uavsandbox/uavsandbox.egg-info/PKG-INFO
+writing dependency_links to ../build/uavsandbox/uavsandbox.egg-info/dependency_links.txt
+writing entry points to ../build/uavsandbox/uavsandbox.egg-info/entry_points.txt
+writing requirements to ../build/uavsandbox/uavsandbox.egg-info/requires.txt
+writing top-level names to ../build/uavsandbox/uavsandbox.egg-info/top_level.txt
+reading manifest file '../build/uavsandbox/uavsandbox.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../build/uavsandbox/uavsandbox.egg-info/SOURCES.txt'
+running build
+running build_py
+copying uavsandbox/sandbox.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+copying uavsandbox/flatness_controller.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+copying uavsandbox/__init__.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+copying uavsandbox/trajectory_planner.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+running install
+running install_lib
+copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/sandbox.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/flatness_controller.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/trajectory_planner.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/sandbox.py to sandbox.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/flatness_controller.py to flatness_controller.cpython-310.pyc
+byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/trajectory_planner.py to trajectory_planner.cpython-310.pyc
+running install_data
+copying resource/uavsandbox -> /home/developer/ros2_ws/src/install/uavsandbox/share/ament_index/resource_index/packages
+copying package.xml -> /home/developer/ros2_ws/src/install/uavsandbox/share/uavsandbox
+running install_egg_info
+removing '/home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../build/uavsandbox/uavsandbox.egg-info to /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox-0.0.0-py3.10.egg-info
+running install_scripts
+Installing flatness script to /home/developer/ros2_ws/src/install/uavsandbox/lib/uavsandbox
+Installing sandbox script to /home/developer/ros2_ws/src/install/uavsandbox/lib/uavsandbox
+writing list of installed files to '/home/developer/ros2_ws/src/build/uavsandbox/install.log'

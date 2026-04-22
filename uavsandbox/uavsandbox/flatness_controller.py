@@ -1,19 +1,39 @@
+"""Flatness-based controller for trajectory tracking on quadrotors."""
+
 import math
 
 import numpy as np
 import rclpy
 from actuator_msgs.msg import Actuators
-from crazyflie_interfaces.msg import FlatTarget
+from nav_msgs.msg import Odometry
 from rclpy.node import Node
+
+from crazyflie_interfaces.msg import FlatTarget
 
 
 class FlatnessController(Node):
+    """Implements flatness-based control for quadrotor trajectory tracking."""
+
     def __init__(self):
+        """Initialize the flatness controller node with parameters and subscribers."""
         super().__init__('flatness_controller')
 
-        self.mass = 2.1
+        self.actual_pos = np.zeros(3)
+        self.actual_vel = np.zeros(3)
+
+        self.target_pos = np.zeros(3)
+        self.target_vel = np.zeros(3)
+
+        self.Kp = np.array([0.5, 0.5, 1.0])
+        self.Kv = np.array([1.5, 1.5, 3.0])
+
+        self.odom_sub = self.create_subscription(
+            Odometry, '/crazyflie/odom', self.odom_callback, 10
+        )
+
+        self.mass = 0.027
         self.g_force = 9.81
-        self.I_matrix = np.diag([0.02167, 0.02167, 0.04])
+        self.I_matrix = np.diag([2.3951e-5, 2.3951e-5, 3.2347e-5])
 
         self.declare_parameter('process_rate', 200.0)
         self.arm_lenght = 0.046
@@ -41,17 +61,44 @@ class FlatnessController(Node):
         process_rate = self.get_parameter('process_rate').value
         self.timer = self.create_timer(1.0 / process_rate, self.control_loop)
 
-        self.get_logger.info('Flatness controler is active')
+        self.get_logger().info('Flatness controller is active')
+
+    def odom_callback(self, msg):
+        """Update actual state from Gazebo."""
+        self.actual_pos = np.array(
+            [msg.pose.pose.position.x, msg.pose.pose.position.y, msg.pose.pose.position.z]
+        )
+        self.actual_vel = np.array(
+            [msg.twist.twist.linear.x, msg.twist.twist.linear.y, msg.twist.twist.linear.z]
+        )
 
     def target_callback(self, msg):
+        """Update target trajectory parameters from FlatTarget message.
+
+        Args:
+            msg: FlatTarget message containing acceleration, jerk, snap, and yaw information.
+        """
+        self.target_pos = np.array([msg.position.x, msg.position.y, msg.position.z])
+        self.target_vel = np.array([msg.velocity.x, msg.velocity.y, msg.velocity.z])
         self.target_acc = np.array([msg.acceleration.x, msg.acceleration.y, msg.acceleration.z])
         self.target_jerk = np.array([msg.jerk.x, msg.jerk.y, msg.jerk.z])
         self.target_snap = np.array([msg.snap.x, msg.snap.y, msg.snap.z])
         self.target_yaw = msg.yaw
         self.target_yaw_rate = msg.yaw_rate
-        self.target_yaw_acc = msg.yaw_acc
+        self.target_yaw_acc = msg.yaw_accel
 
     def calculate_physics(self):
+        """Calculate thrust and torques based on target acceleration, jerk, and snap.
+
+        Returns:
+            tuple: thrust (float), tau_x (float), tau_y (float), tau_z (float)
+        """
+        pos_error = self.target_pos - self.actual_pos
+        vel_error = self.target_vel - self.actual_vel
+
+        acc_cmd = self.target_acc + (self.Kp * pos_error) + (self.Kv * vel_error)
+
+        acc_total = acc_cmd + np.array([0.0, 0.0, self.g_force])
         acc_total = self.target_acc + np.array([0.0, 0.0, self.g_force])
         thrust = self.mass * np.linalg.norm(acc_total)
         z_B = acc_total / np.linalg.norm(acc_total)
@@ -72,14 +119,15 @@ class FlatnessController(Node):
         s_y = np.dot(self.target_snap, y_B)
 
         omega_dot_x = (
+            -(self.mass / thrust) * s_y
+            - 2.0 * (self.mass / thrust) * j_z * omega_x
+            + omega_y * omega_z
+        )
+
+        omega_dot_y = (
             (self.mass / thrust) * s_x
             - 2.0 * (self.mass / thrust) * j_z * omega_y
             - omega_x * omega_z
-        )
-        omega_dot_y = (
-            (self.mass / thrust) * s_y
-            + 2.0 * (self.mass / thrust) * j_z * omega_x
-            - omega_y * omega_z
         )
         omega_dot_z = self.target_yaw_acc * z_B[2]
         omega_dot = np.array([omega_dot_x, omega_dot_y, omega_dot_z])
@@ -89,6 +137,7 @@ class FlatnessController(Node):
         return thrust, tau[0], tau[1], tau[2]
 
     def control_loop(self):
+        """Execute the control loop to compute and publish motor speeds."""
         thrust, tau_x, tau_y, tau_z = self.calculate_physics()
 
         t_part = self.k_thrust * thrust
@@ -110,17 +159,20 @@ class FlatnessController(Node):
         ]
         self.motor_pub.publish(msg)
 
-    def main(args=None):
-        rclpy.init(args=args)
-        node = FlatnessController()
-        try:
-            rclpy.spin(node)
-        except KeyboardInterrupt:
-            pass
-        finally:
-            node.destroy_node()
-            if rclpy.ok():
-                rclpy.shutdown()
 
-    if __name__ == '__main__':
-        main()
+def main(args=None):
+    """Entry point for the flatness controller node."""
+    rclpy.init(args=args)
+    node = FlatnessController()
+    try:
+        rclpy.spin(node)
+    except KeyboardInterrupt:
+        pass
+    finally:
+        node.destroy_node()
+        if rclpy.ok():
+            rclpy.shutdown()
+
+
+if __name__ == '__main__':
+    main()

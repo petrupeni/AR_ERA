@@ -1,3 +1,11 @@
+"""
+SandBox node for Crazyflie UAV simulation in ROS2.
+
+This module provides a SandBox class that interfaces with a Crazyflie drone
+simulator, converting velocity commands to motor speed commands through
+physics-based calculations.
+"""
+
 import math
 import threading
 
@@ -8,6 +16,12 @@ from rclpy.node import Node
 
 
 class SandBox(Node):
+    """ROS2 node that converts velocity commands to Crazyflie motor speeds.
+
+    This node subscribes to velocity commands and publishes motor speed commands
+    to the Crazyflie simulator through physics-based calculations.
+    """
+
     def __init__(self):
         super().__init__('sandbox')
 
@@ -51,6 +65,11 @@ class SandBox(Node):
         )
 
     def manual_control_callback(self, msg):
+        """Handle velocity commands and convert to desired torques.
+
+        Args:
+            msg: Twist message containing linear and angular velocities.
+        """
         with self.input_lock:
             # Map keyboard Twist limits to Crazyflie dynamics
             self.desired_thrust = max(0.0, msg.linear.z)

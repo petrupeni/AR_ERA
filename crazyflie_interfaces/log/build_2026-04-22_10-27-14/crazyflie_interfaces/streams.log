@@ -1,0 +1,257 @@
+[0.015s] Invoking command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --build /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces -- -j24 -l24
+[0.057s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.296s] -- Found geometry_msgs: 4.9.1 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.368s] -- Found rosidl_generator_c: 3.1.8 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.376s] -- Found rosidl_adapter: 3.1.8 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.390s] -- Found rosidl_generator_cpp: 3.1.8 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.409s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.435s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.499s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.051s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[2.153s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.593s] [33mCMake Warning (dev) at /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[2.593s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.593s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.594s]   the cmake_policy command to set the policy and suppress this warning.
+[2.594s] 
+[2.594s] Call Stack (most recent call first):
+[2.594s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.594s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.594s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.594s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.595s] [0m
+[2.622s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[2.628s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[2.629s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[2.629s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.629s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.629s]   the cmake_policy command to set the policy and suppress this warning.
+[2.629s] 
+[2.629s] Call Stack (most recent call first):
+[2.629s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.629s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.629s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.629s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.630s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.630s] [0m
+[2.655s] [33mCMake Warning (dev) at /opt/ros/humble/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[2.655s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[2.656s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[2.656s]   the cmake_policy command to set the policy and suppress this warning.
+[2.656s] 
+[2.656s] Call Stack (most recent call first):
+[2.656s]   /opt/ros/humble/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[2.656s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[2.656s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[2.656s]   CMakeLists.txt:14 (rosidl_generate_interfaces)
+[2.656s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[2.656s] [0m
+[2.669s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[2.669s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.669s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[2.669s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[2.697s] -- Found PythonExtra: .so  
+[2.793s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.826s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.827s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_generator_c>;$<BUILD_INTERFACE:/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_typesupport_fastrtps_c>;$<BUILD_INTERFACE:/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_generator_cpp>;$<BUILD_INTERFACE:/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_typesupport_fastrtps_cpp>;$<BUILD_INTERFACE:/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_typesupport_introspection_cpp>;/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_generator_c;/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces/rosidl_generator_py
+[2.827s] -- Configured cppcheck exclude dirs and/or files: 
+[2.829s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.835s] -- Added test 'lint_cmake' to check CMake code style
+[2.838s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.858s] -- Added test 'uncrustify' to check C / C++ code style
+[2.858s] -- Configured uncrustify additional arguments: 
+[2.861s] -- Added test 'xmllint' to check XML markup files
+[2.864s] -- Configuring done (2.8s)
+[2.910s] -- Generating done (0.0s)
+[2.922s] -- Build files have been written to: /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces
+[2.941s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.948s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[2.953s] [  6%] Built target ament_cmake_python_copy_crazyflie_interfaces
+[3.162s] running egg_info
+[3.166s] [  6%] Built target crazyflie_interfaces__cpp
+[3.170s] [  9%] [32mBuilding C object CMakeFiles/crazyflie_interfaces__rosidl_generator_c.dir/rosidl_generator_c/crazyflie_interfaces/msg/detail/flat_target__functions.c.o[0m
+[3.172s] [ 12%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[3.173s] [ 19%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[3.173s] [ 19%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[3.181s] creating crazyflie_interfaces.egg-info
+[3.181s] writing crazyflie_interfaces.egg-info/PKG-INFO
+[3.182s] writing dependency_links to crazyflie_interfaces.egg-info/dependency_links.txt
+[3.182s] writing top-level names to crazyflie_interfaces.egg-info/top_level.txt
+[3.182s] writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[3.230s] [ 22%] [32m[1mLinking C shared library libcrazyflie_interfaces__rosidl_generator_c.so[0m
+[3.237s] reading manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[3.238s] writing manifest file 'crazyflie_interfaces.egg-info/SOURCES.txt'
+[3.260s] [ 22%] Built target ament_cmake_python_build_crazyflie_interfaces_egg
+[3.261s] [ 22%] Built target crazyflie_interfaces__rosidl_generator_c
+[3.268s] [ 25%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.268s] [ 29%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.269s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[3.372s] [ 35%] [32mBuilding CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/crazyflie_interfaces/msg/flat_target__type_support.cpp.o[0m
+[3.380s] [ 38%] [32mBuilding CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/crazyflie_interfaces/msg/detail/flat_target__type_support.cpp.o[0m
+[3.387s] [ 41%] [32mBuilding CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/crazyflie_interfaces/msg/detail/dds_fastrtps/flat_target__type_support.cpp.o[0m
+[3.478s] [ 45%] [32mBuilding CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/crazyflie_interfaces/msg/flat_target__type_support.cpp.o[0m
+[3.480s] [ 48%] [32mBuilding C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/crazyflie_interfaces/msg/detail/flat_target__type_support.c.o[0m
+[3.485s] [ 51%] [32mBuilding CXX object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/crazyflie_interfaces/msg/detail/flat_target__type_support_c.cpp.o[0m
+[3.510s] [ 54%] [32m[1mLinking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_c.so[0m
+[3.518s] [ 58%] [32m[1mLinking C shared library libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.542s] [ 58%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c
+[3.551s] [ 58%] Built target crazyflie_interfaces__rosidl_typesupport_c
+[3.623s] [ 61%] [32m[1mLinking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_cpp.so[0m
+[3.655s] [ 61%] Built target crazyflie_interfaces__rosidl_typesupport_cpp
+[3.715s] [ 64%] [32m[1mLinking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[3.727s] [ 67%] [32m[1mLinking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[3.760s] [ 70%] [32m[1mLinking CXX shared library libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[3.765s] [ 70%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_cpp
+[3.788s] [ 70%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_cpp
+[3.820s] [ 70%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c
+[3.833s] [ 70%] Built target crazyflie_interfaces
+[3.847s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[4.111s] [ 74%] Built target crazyflie_interfaces__py
+[4.126s] [ 77%] [32mBuilding C object CMakeFiles/crazyflie_interfaces__rosidl_generator_py.dir/rosidl_generator_py/crazyflie_interfaces/msg/_flat_target_s.c.o[0m
+[4.239s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/crazyflie_interfaces/libcrazyflie_interfaces__rosidl_generator_py.so[0m
+[4.277s] [ 80%] Built target crazyflie_interfaces__rosidl_generator_py
+[4.291s] [ 83%] [32mBuilding C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[4.292s] [ 87%] [32mBuilding C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[4.294s] [ 90%] [32mBuilding C object CMakeFiles/crazyflie_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[4.394s] [ 93%] [32m[1mLinking C shared library rosidl_generator_py/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.394s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.396s] [100%] [32m[1mLinking C shared library rosidl_generator_py/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[4.428s] [100%] Built target crazyflie_interfaces__rosidl_typesupport_introspection_c__pyext
+[4.430s] [100%] Built target crazyflie_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[4.430s] [100%] Built target crazyflie_interfaces__rosidl_typesupport_c__pyext
+[4.441s] Invoked command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --build /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces -- -j24 -l24
+[4.475s] Invoking command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --install /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces
+[4.505s] -- Install configuration: ""
+[4.505s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/ament_index/resource_index/rosidl_interfaces/crazyflie_interfaces
+[4.505s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces
+[4.505s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg
+[4.505s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/flat_target.h
+[4.505s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.506s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail
+[4.506s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__struct.h
+[4.506s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__functions.c
+[4.506s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__functions.h
+[4.506s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__type_support.h
+[4.506s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.sh
+[4.506s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/library_path.dsv
+[4.507s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_c.so
+[4.507s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_c.so" to ""
+[4.507s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces
+[4.507s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg
+[4.507s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.508s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail
+[4.508s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__rosidl_typesupport_fastrtps_c.h
+[4.508s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.508s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[4.508s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces
+[4.509s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg
+[4.509s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[4.509s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/flat_target.hpp
+[4.509s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail
+[4.509s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__type_support.hpp
+[4.509s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__builder.hpp
+[4.509s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__struct.hpp
+[4.510s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__traits.hpp
+[4.510s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces
+[4.510s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg
+[4.510s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.510s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail
+[4.510s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/dds_fastrtps
+[4.510s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__rosidl_typesupport_fastrtps_cpp.hpp
+[4.510s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.511s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[4.511s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces
+[4.511s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg
+[4.511s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail
+[4.511s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__rosidl_typesupport_introspection_c.h
+[4.511s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__type_support.c
+[4.511s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.512s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so
+[4.512s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[4.512s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so
+[4.512s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_c.so" to ""
+[4.512s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces
+[4.512s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg
+[4.512s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail
+[4.512s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__rosidl_typesupport_introspection_cpp.hpp
+[4.513s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/include/crazyflie_interfaces/crazyflie_interfaces/msg/detail/flat_target__type_support.cpp
+[4.513s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.514s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[4.514s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so
+[4.514s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_typesupport_cpp.so" to ""
+[4.514s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.sh
+[4.514s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/pythonpath.dsv
+[4.514s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-0.0.0-py3.10.egg-info
+[4.514s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.514s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.515s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.515s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.515s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces
+[4.515s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.515s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg
+[4.515s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_flat_target_s.c
+[4.516s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/__init__.py
+[4.516s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_flat_target.py
+[4.516s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_c.c
+[4.516s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.516s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.516s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/__init__.py
+[4.517s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.517s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/_crazyflie_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.517s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/libcrazyflie_interfaces__rosidl_generator_py.so
+[4.551s] Listing '/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces'...
+[4.551s] Compiling '/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/__init__.py'...
+[4.551s] Listing '/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg'...
+[4.551s] Compiling '/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/__init__.py'...
+[4.551s] Compiling '/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/msg/_flat_target.py'...
+[4.554s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.554s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.555s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.555s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.555s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.556s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/local/lib/python3.10/dist-packages/crazyflie_interfaces/crazyflie_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[4.556s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_py.so
+[4.556s] -- Set runtime path of "/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/lib/libcrazyflie_interfaces__rosidl_generator_py.so" to ""
+[4.556s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FlatTarget.idl
+[4.556s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/msg/FlatTarget.msg
+[4.556s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/ament_index/resource_index/package_run_dependencies/crazyflie_interfaces
+[4.557s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/ament_index/resource_index/parent_prefix_path/crazyflie_interfaces
+[4.557s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.sh
+[4.557s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.dsv
+[4.557s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.sh
+[4.557s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.dsv
+[4.557s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.bash
+[4.557s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.sh
+[4.558s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.zsh
+[4.558s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.dsv
+[4.558s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv
+[4.558s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/ament_index/resource_index/packages/crazyflie_interfaces
+[4.558s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport.cmake
+[4.558s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.558s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.559s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.559s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_cppExport.cmake
+[4.559s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.559s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.559s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.559s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.560s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport.cmake
+[4.560s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.560s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.560s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.560s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport.cmake
+[4.560s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.561s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport.cmake
+[4.561s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/export_crazyflie_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.561s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.561s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.561s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.562s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.562s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.562s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.562s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.562s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig.cmake
+[4.563s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig-version.cmake
+[4.563s] -- Up-to-date: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/package.xml
+[4.569s] Invoked command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --install /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces

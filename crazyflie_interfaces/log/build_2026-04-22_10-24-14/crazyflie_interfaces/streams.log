@@ -1,0 +1,47 @@
+[0.013s] Invoking command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake /home/developer/ros2_ws/src/crazyflie_interfaces -DCMAKE_INSTALL_PREFIX=/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces
+[0.122s] -- The C compiler identification is GNU 11.4.0
+[0.209s] -- The CXX compiler identification is GNU 11.4.0
+[0.239s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.332s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.332s] -- Detecting C compile features
+[0.333s] -- Detecting C compile features - done
+[0.350s] -- Detecting CXX compiler ABI info
+[0.442s] -- Detecting CXX compiler ABI info - done
+[0.453s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.453s] -- Detecting CXX compile features
+[0.453s] -- Detecting CXX compile features - done
+[0.458s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.627s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.735s] -- Found ament_lint_auto: 0.12.15 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.858s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.858s] -- Configured cppcheck include dirs: 
+[0.858s] -- Configured cppcheck exclude dirs and/or files: 
+[0.862s] -- Added test 'lint_cmake' to check CMake code style
+[0.871s] -- Added test 'uncrustify' to check C / C++ code style
+[0.871s] -- Configured uncrustify additional arguments: 
+[0.872s] -- Added test 'xmllint' to check XML markup files
+[0.874s] -- Configuring done (0.8s)
+[0.879s] -- Generating done (0.0s)
+[0.881s] -- Build files have been written to: /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces
+[0.889s] Invoked command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake /home/developer/ros2_ws/src/crazyflie_interfaces -DCMAKE_INSTALL_PREFIX=/home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces
+[0.891s] Invoking command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --build /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces -- -j24 -l24
+[0.940s] Invoked command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --build /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces -- -j24 -l24
+[0.975s] Invoking command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --install /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces
+[1.003s] -- Install configuration: ""
+[1.004s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/ament_index/resource_index/package_run_dependencies/crazyflie_interfaces
+[1.004s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/ament_index/resource_index/parent_prefix_path/crazyflie_interfaces
+[1.004s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.sh
+[1.004s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/ament_prefix_path.dsv
+[1.004s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.sh
+[1.005s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/environment/path.dsv
+[1.005s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.bash
+[1.005s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.sh
+[1.005s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.zsh
+[1.005s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/local_setup.dsv
+[1.005s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/package.dsv
+[1.006s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/ament_index/resource_index/packages/crazyflie_interfaces
+[1.006s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig.cmake
+[1.006s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/cmake/crazyflie_interfacesConfig-version.cmake
+[1.006s] -- Installing: /home/developer/ros2_ws/src/crazyflie_interfaces/install/crazyflie_interfaces/share/crazyflie_interfaces/package.xml
+[1.012s] Invoked command in '/home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/developer/ros2_ws/src/install/uavsandbox:/opt/ros/humble /usr/local/bin/cmake --install /home/developer/ros2_ws/src/crazyflie_interfaces/build/crazyflie_interfaces
