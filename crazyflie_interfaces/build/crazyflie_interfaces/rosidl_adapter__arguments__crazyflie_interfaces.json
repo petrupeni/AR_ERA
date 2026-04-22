@@ -1,0 +1,6 @@
+{
+  "package_name": "crazyflie_interfaces",
+  "non_idl_tuples": [
+    "/home/developer/ros2_ws/src/crazyflie_interfaces:msg/FlatTarget.msg"
+  ]
+}

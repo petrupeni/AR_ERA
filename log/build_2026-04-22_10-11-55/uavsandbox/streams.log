@@ -1,0 +1,37 @@
+[0.738s] Invoking command in '/home/developer/ros2_ws/src/uavsandbox': PYTHONPATH=/home/developer/ros2_ws/src/build/uavsandbox/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uavsandbox build --build-base /home/developer/ros2_ws/src/build/uavsandbox/build install --record /home/developer/ros2_ws/src/build/uavsandbox/install.log --single-version-externally-managed install_data
+[0.880s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:289: UserWarning: Unknown distribution option: 'tests_require'
+[0.881s]   warnings.warn(msg)
+[0.989s] running egg_info
+[1.006s] writing ../build/uavsandbox/uavsandbox.egg-info/PKG-INFO
+[1.007s] writing dependency_links to ../build/uavsandbox/uavsandbox.egg-info/dependency_links.txt
+[1.007s] writing entry points to ../build/uavsandbox/uavsandbox.egg-info/entry_points.txt
+[1.007s] writing requirements to ../build/uavsandbox/uavsandbox.egg-info/requires.txt
+[1.007s] writing top-level names to ../build/uavsandbox/uavsandbox.egg-info/top_level.txt
+[1.043s] reading manifest file '../build/uavsandbox/uavsandbox.egg-info/SOURCES.txt'
+[1.044s] adding license file 'LICENSE'
+[1.044s] writing manifest file '../build/uavsandbox/uavsandbox.egg-info/SOURCES.txt'
+[1.045s] running build
+[1.045s] running build_py
+[1.045s] copying uavsandbox/sandbox.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+[1.045s] copying uavsandbox/flatness_controller.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+[1.045s] copying uavsandbox/__init__.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+[1.045s] copying uavsandbox/trajectory_planner.py -> /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox
+[1.045s] running install
+[1.049s] running install_lib
+[1.067s] copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/sandbox.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+[1.067s] copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/flatness_controller.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+[1.067s] copying /home/developer/ros2_ws/src/build/uavsandbox/build/lib/uavsandbox/trajectory_planner.py -> /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox
+[1.068s] byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/sandbox.py to sandbox.cpython-310.pyc
+[1.068s] byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/flatness_controller.py to flatness_controller.cpython-310.pyc
+[1.069s] byte-compiling /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox/trajectory_planner.py to trajectory_planner.cpython-310.pyc
+[1.070s] running install_data
+[1.070s] copying resource/uavsandbox -> /home/developer/ros2_ws/src/install/uavsandbox/share/ament_index/resource_index/packages
+[1.070s] copying package.xml -> /home/developer/ros2_ws/src/install/uavsandbox/share/uavsandbox
+[1.070s] running install_egg_info
+[1.089s] removing '/home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox-0.0.0-py3.10.egg-info' (and everything under it)
+[1.089s] Copying ../build/uavsandbox/uavsandbox.egg-info to /home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages/uavsandbox-0.0.0-py3.10.egg-info
+[1.090s] running install_scripts
+[1.127s] Installing flatness script to /home/developer/ros2_ws/src/install/uavsandbox/lib/uavsandbox
+[1.127s] Installing sandbox script to /home/developer/ros2_ws/src/install/uavsandbox/lib/uavsandbox
+[1.127s] writing list of installed files to '/home/developer/ros2_ws/src/build/uavsandbox/install.log'
+[1.145s] Invoked command in '/home/developer/ros2_ws/src/uavsandbox' returned '0': PYTHONPATH=/home/developer/ros2_ws/src/build/uavsandbox/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/developer/ros2_ws/src/install/uavsandbox/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../build/uavsandbox build --build-base /home/developer/ros2_ws/src/build/uavsandbox/build install --record /home/developer/ros2_ws/src/build/uavsandbox/install.log --single-version-externally-managed install_data

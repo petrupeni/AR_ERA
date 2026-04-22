@@ -1,2 +1,3 @@
 [console_scripts]
+flatness = uavsandbox.flatness_controller:main
 sandbox = uavsandbox.sandbox:main

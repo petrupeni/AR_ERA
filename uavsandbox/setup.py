@@ -1,3 +1,5 @@
+"""Setup configuration for the uavsandbox package."""
+
 from setuptools import find_packages, setup
 
 package_name = 'uavsandbox'
@@ -20,6 +22,8 @@ setup(
     entry_points={
         'console_scripts': [
             'sandbox = uavsandbox.sandbox:main',
+            'flatness = uavsandbox.flatness_controller:main',
+            'planner = uavsandbox.trajectory_planner:main',
         ],
     },
 )
